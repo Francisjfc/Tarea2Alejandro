@@ -1,3 +1,4 @@
+<h1>Listado de usuarios</h1>
 <ul *ngFor="let usuario of usuarios">
-    <li name="usuario" [value]="usuario">{{ usuario }}</li>
-</ul>  
+    <li name="usuario" [value]="usuario">{{ usuario.nombre }} {{ usuario.apellidoUno }} {{ usuario.apellidoDos }}</li>
+</ul>

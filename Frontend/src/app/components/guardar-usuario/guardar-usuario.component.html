@@ -1,1 +1,7 @@
-<p>guardar-usuario works!</p>
+<form (submit)="getData()" [formGroup]="form">
+    <input type="text" formControlName="nombre" placeholder="Nombre" autocomplete="off">
+    <input type="text" formControlName="apellidoUno" placeholder="Primer apellido" autocomplete="off">
+    <input type="text" formControlName="apellidoDos" placeholder="Segundo apellido" autocomplete="off">    
+    <br>
+    <button type="submit">Registrar usuario</button>
+</form>

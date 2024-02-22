@@ -8,7 +8,7 @@ import { Usuario } from '../model/Usuario';
 })
 export class UsuarioService {
 
-  private Base_URL : string = "http://localhost:8080/api/empleado"
+  private Base_URL : string = "http://localhost:8080/api/cliente"
   private httpHeader : HttpHeaders = new HttpHeaders({"Content-Type" : "application/json"})
 
   constructor(private http : HttpClient) { }

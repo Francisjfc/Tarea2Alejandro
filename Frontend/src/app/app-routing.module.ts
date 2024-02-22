@@ -5,7 +5,7 @@ import { ListarUsuarioComponent } from './components/listar-usuario/listar-usuar
 
 const routes: Routes = [
 
-  {path: '', component: GuardarUsuarioComponent},
+  {path: 'guardar-usuario', component: GuardarUsuarioComponent},
   {path: 'lista-usuarios', component: ListarUsuarioComponent}
 
 ];
